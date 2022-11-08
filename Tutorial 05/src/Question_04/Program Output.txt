@@ -1,0 +1,6 @@
+A final class cannot be extended. Therefore X2 cannot extend X1. Either X1 should not
+become final, or X2 should not attempt to inherit from it.
+
+Final method cannot be overridden. Therefore, foo cannot be overridden in X3. 
+
+The final keyword should be removed from the foo version of X2.

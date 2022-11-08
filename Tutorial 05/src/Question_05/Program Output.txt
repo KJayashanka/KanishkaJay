@@ -1,0 +1,14 @@
+Question 01
+
+Cell constructor called
+TinyCell constructor called
+MicroscopicCell constructor called
+
+Question 02
+
+The TinyCell2 constructor will call the default constructor of its parent class Cell2.
+As Cell2 defines a constructor with arguments, the compiler will not synthesise a no arguments constructor for Cell2 and the compiler will report an error.
+
+Adding the line super(5) at the indicated point will force the constructor of TinyCell2
+to call the Cell2(int) constructor as opposed to the default constructor. The program
+will then compile and run.
